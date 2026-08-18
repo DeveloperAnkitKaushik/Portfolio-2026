@@ -121,6 +121,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(personJsonLd()) }}
         />
+        <meta name="google-site-verification" content="IhleRkwS3CAPHzFgSf0ySPwCj7IYM1DdenB4JQzDb28" />
       </head>
       <body className="min-h-full flex flex-col">
         <ThemeProvider>
