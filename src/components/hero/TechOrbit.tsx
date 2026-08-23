@@ -2,23 +2,25 @@
 
 import type { IconType } from "react-icons";
 import {
+  SiAnthropic,
   SiDocker,
-  SiExpress,
-  SiGit,
-  SiGithub,
-  SiHtml5,
-  SiJavascript,
-  SiMongodb,
+  SiFastapi,
+  SiFirebase,
+  SiGooglegemini,
+  SiHuggingface,
+  SiLangchain,
   SiNextdotjs,
   SiNodedotjs,
+  SiOllama,
   SiPostgresql,
-  SiPrisma,
   SiPython,
   SiReact,
   SiRedis,
   SiTailwindcss,
   SiTypescript,
+  SiVercel,
 } from "react-icons/si";
+import { TbBrandOpenai } from "react-icons/tb";
 
 type OrbitIcon = {
   Icon: IconType;
@@ -37,41 +39,41 @@ type Ring = {
 const RINGS: Ring[] = [
   {
     radius: 190,
-    duration: 90,
+    duration: 80,
     dir: "cw",
     icons: [
-      { Icon: SiReact, angle: 0, size: 26 },
-      { Icon: SiJavascript, angle: 95, size: 22 },
-      { Icon: SiTypescript, angle: 170, size: 22 },
-      { Icon: SiDocker, angle: 255, size: 30 },
+      { Icon: SiPython, angle: 0, size: 30 },
+      { Icon: SiReact, angle: 90, size: 28 },
+      { Icon: TbBrandOpenai, angle: 180, size: 28 },
+      { Icon: SiTypescript, angle: 270, size: 26 },
     ],
   },
   {
     radius: 330,
-    duration: 130,
+    duration: 120,
     dir: "ccw",
     icons: [
-      { Icon: SiPython, angle: 42, size: 40 },
-      { Icon: SiPrisma, angle: 105, size: 44 },
-      { Icon: SiGithub, angle: 152, size: 34 },
-      { Icon: SiGit, angle: 205, size: 28 },
-      { Icon: SiPostgresql, angle: 268, size: 38 },
-      { Icon: SiTailwindcss, angle: 320, size: 26 },
+      { Icon: SiLangchain, angle: 30, size: 34 },
+      { Icon: SiNextdotjs, angle: 90, size: 32 },
+      { Icon: SiFastapi, angle: 150, size: 32 },
+      { Icon: SiOllama, angle: 210, size: 34 },
+      { Icon: SiTailwindcss, angle: 270, size: 28 },
+      { Icon: SiDocker, angle: 330, size: 32 },
     ],
   },
   {
     radius: 480,
-    duration: 175,
+    duration: 160,
     dir: "cw",
     icons: [
-      // Simple Icons dropped the AWS mark for trademark reasons, so react-icons
-      // has no SiAmazonwebservices — Redis stands in on that slot for now.
-      { Icon: SiRedis, angle: 292, size: 36 },
-      { Icon: SiMongodb, angle: 250, size: 44 },
-      { Icon: SiNextdotjs, angle: 68, size: 34 },
-      { Icon: SiHtml5, angle: 348, size: 32 },
-      { Icon: SiNodedotjs, angle: 140, size: 30 },
-      { Icon: SiExpress, angle: 22, size: 34 },
+      { Icon: SiGooglegemini, angle: 15, size: 34 },
+      { Icon: SiPostgresql, angle: 60, size: 34 },
+      { Icon: SiAnthropic, angle: 105, size: 34 },
+      { Icon: SiNodedotjs, angle: 150, size: 32 },
+      { Icon: SiHuggingface, angle: 195, size: 34 },
+      { Icon: SiFirebase, angle: 240, size: 32 },
+      { Icon: SiRedis, angle: 285, size: 34 },
+      { Icon: SiVercel, angle: 330, size: 30 },
     ],
   },
 ];

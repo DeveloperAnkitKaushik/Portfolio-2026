@@ -5,6 +5,7 @@ import {
   SiCss,
   SiDocker,
   SiExpress,
+  SiFastapi,
   SiFigma,
   SiFirebase,
   SiGit,
@@ -24,18 +25,21 @@ import {
   SiNodedotjs,
   SiOllama,
   SiOpenjdk,
+  SiPostgresql,
   SiPostman,
   SiPython,
   SiReact,
+  SiRedis,
   SiTailwindcss,
   SiTypescript,
   SiVercel,
 } from "react-icons/si";
+import { TbBrandOpenai } from "react-icons/tb";
 
 export type StackItem = { name: string; Icon: IconType };
 
 /**
- * Every logo comes from Simple Icons via react-icons, which ships them as
+ * Every logo comes from Simple Icons / Tabler Icons via react-icons, which ships them as
  * single-path SVGs drawn in `currentColor` — that's what lets the whole grid
  * flip between white and black with the theme without a second icon set.
  *
@@ -44,6 +48,7 @@ export type StackItem = { name: string; Icon: IconType };
  */
 export const STACK: StackItem[] = [
   // AI / LLM
+  { name: "OpenAI", Icon: TbBrandOpenai },
   { name: "LangChain", Icon: SiLangchain },
   { name: "Ollama", Icon: SiOllama },
   { name: "Hugging Face", Icon: SiHuggingface },
@@ -66,9 +71,12 @@ export const STACK: StackItem[] = [
   { name: "CSS", Icon: SiCss },
 
   // Backend
+  { name: "FastAPI", Icon: SiFastapi },
   { name: "Node.js", Icon: SiNodedotjs },
   { name: "Express", Icon: SiExpress },
+  { name: "PostgreSQL", Icon: SiPostgresql },
   { name: "MongoDB", Icon: SiMongodb },
+  { name: "Redis", Icon: SiRedis },
   { name: "MySQL", Icon: SiMysql },
   { name: "JWT", Icon: SiJsonwebtokens },
   { name: "Firebase", Icon: SiFirebase },

@@ -10,7 +10,7 @@ import { CONTACT } from "@/data/contact";
 const menuItems = [
   { label: "Home", ariaLabel: "Go to the top of the page", link: "#home" },
   { label: "Projects", ariaLabel: "Browse my projects", link: "#projects" },
-  { label: "Tech Stack", ariaLabel: "See my tech stack", link: "#skills" },
+  { label: "Tech", ariaLabel: "See my tech stack", link: "#skills" },
   { label: "Experience", ariaLabel: "Read my experience", link: "#experience" },
   { label: "Contact", ariaLabel: "Get in touch", link: "#contact" },
 ];

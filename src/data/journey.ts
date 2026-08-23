@@ -77,6 +77,26 @@ export const JOURNEY: JourneyTrack[] = [
       "My academic background, highlighting the foundational computer science knowledge and coursework that shapes how I approach engineering problems.",
     entries: [
       {
+        id: "edu-msft-genai",
+        period: "May 2026 – Aug 2026",
+        title: "Microsoft Generative AI Engineering",
+        org: "Microsoft",
+        mode: "Professional Certificate (5 Courses)",
+        url: "https://coursera.org/verify/professional-cert/TVPQHSYJ6NX4",
+        points: [
+          "Completed the 5-course Professional Certificate covering end-to-end generative AI development, fine-tuning, and deployment across Microsoft's AI ecosystem.",
+          "Built and scaled solutions leveraging Azure AI Foundry, Azure Machine Learning, and Azure OpenAI Service for enterprise-grade LLM applications.",
+          "Mastered core generative models, prompt engineering, multimodal & cross-modal AI integrations, and production MLOps with responsible AI practices.",
+        ],
+        courses: [
+          { name: "Getting started with generative AI in Azure" },
+          { name: "Core generative models and techniques" },
+          { name: "Working with large language models using Azure" },
+          { name: "Multimodal and cross-modal AI integrations" },
+          { name: "MLOps and responsible AI practices" },
+        ],
+      },
+      {
         id: "edu-mca",
         period: "Sep 2023 – May 2025",
         title: "Master of Computer Applications (MCA)",
