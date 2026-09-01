@@ -106,6 +106,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       suppressHydrationWarning
     >
       <head>
+        <meta name="google-site-verification" content="zWoLMhQISNg8ny3GQn4_8oQYwqajY81KGg-YWsuX51Y" />
         {/*
           Must be a raw inline script, not next/script. `beforeInteractive` in
           the App Router defers into Next's __next_s queue and runs after first
