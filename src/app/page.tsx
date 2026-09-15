@@ -5,6 +5,10 @@ import Stack from "@/components/stack/Stack";
 import Journey from "@/components/journey/Journey";
 import Contact from "@/components/contact/Contact";
 
+// Tell Next.js to build this page completely static with permanent server cache
+export const dynamic = "force-static";
+export const revalidate = false;
+
 export default function Home() {
   return (
     <main className="flex flex-1 flex-col">

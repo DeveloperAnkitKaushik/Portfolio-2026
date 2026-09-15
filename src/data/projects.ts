@@ -20,11 +20,33 @@ export type Project = {
  */
 export const PROJECTS: Project[] = [
   {
+    slug: "headsup",
+    kicker: "Multi-Agent AI Investigation Platform for Early Product Safety Signals",
+    title: "HeadsUp",
+    description:
+      "Open-source multi-agent platform that investigates web data across reviews, forums, and regulators to detect early product-safety risks before official recalls.",
+    tech: [
+      "LangGraph",
+      "Python",
+      "FastAPI",
+      "PostgreSQL",
+      "pgvector",
+      "Redis",
+      "Next.js",
+      "TypeScript",
+      "Docker",
+    ],
+    url: "headsup.ankitkaushik.in",
+    liveUrl: "https://headsup.ankitkaushik.in/",
+    repoUrl: "https://github.com/DeveloperAnkitKaushik/headsup",
+    image: "/projects/headsup.png",
+  },
+  {
     slug: "orange",
     kicker: "Cost-Aware Model Routing Gateway for LLM Applications",
     title: "Orange",
     description:
-      "A LLMRouter & OpenAI-compatible inference gateway that intelligently routes requests to the cheapest capable AI model using local embedding-based complexity scoring, semantic caching, and budget-aware failover—optimizing cost without compromising response quality.",
+      "OpenAI-compatible inference gateway that routes queries to the cheapest capable model using embedding scoring, semantic caching, and budget-aware failover.",
     tech: [
       "Python",
       "FastAPI",
@@ -39,25 +61,6 @@ export const PROJECTS: Project[] = [
     liveUrl: "https://orange.ankitkaushik.in/",
     repoUrl: "https://github.com/DeveloperAnkitKaushik/orange",
     image: "/projects/orange.png",
-  },
-  {
-    slug: "grace-ai",
-    kicker: "AI-Assisted Shopping Layer — Shipped at Wallmantra",
-    title: "Grace AI",
-    description:
-      "An AI shopping assistant that lets customers find products in natural language and get personalised recommendations across the catalog. Shipped alongside LLM-powered support workflows that handle common queries automatically and keep responses consistent, cutting manual support load.",
-    tech: [
-      "Next.js",
-      "Node.js",
-      "LLM Integration",
-      "RAG",
-      "Recommendations",
-      "Prompt Engineering",
-      "Caching",
-    ],
-    url: "wallmantra.com",
-    liveUrl: "https://wallmantra.com/",
-    image: "/projects/graceai.png",
   },
   {
     slug: "akmovies",

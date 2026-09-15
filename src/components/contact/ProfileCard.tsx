@@ -9,6 +9,7 @@ export default function ProfileCard({ className = "" }: { className?: string }) 
         src="/contact/contact-ankit-bg.jpg"
         alt="Profile Background"
         fill
+        sizes="(max-width: 768px) 100vw, 33vw"
         className="pointer-events-none object-cover opacity-30"
       />
 

@@ -81,7 +81,7 @@ export const JOURNEY: JourneyTrack[] = [
         period: "May 2026 – Aug 2026",
         title: "Microsoft Generative AI Engineering",
         org: "Microsoft",
-        mode: "Professional Certificate (5 Courses)",
+        mode: "Professional Certificate (5 Courses) 90%",
         url: "https://coursera.org/verify/professional-cert/TVPQHSYJ6NX4",
         points: [
           "Completed the 5-course Professional Certificate covering end-to-end generative AI development, fine-tuning, and deployment across Microsoft's AI ecosystem.",

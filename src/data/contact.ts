@@ -24,8 +24,8 @@ export type PinnedRepo = { name: string; description: string };
 
 /** Shown in the scrolling marquee on the GitHub card. */
 export const PINNED_REPOS: PinnedRepo[] = [
-  { name: "Orange (LLMRouter)", description: "Cost-Aware Model Routing Gateway" },
-  { name: "Grace AI", description: "AI-Assisted Shopping Layer" },
+  { name: "HeadsUp", description: "Multi-Agent Product Safety Investigation Platform" },
+  { name: "Orange", description: "Cost-Aware Model Routing Gateway" },
   { name: "AKMovies", description: "Movie & TV Streaming Platform" },
   { name: "Portfolio", description: "Developer Portfolio Website" },
 ];
