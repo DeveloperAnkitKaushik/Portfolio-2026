@@ -41,8 +41,21 @@ export const JOURNEY: JourneyTrack[] = [
       "A timeline of my professional experience shipping production LLM features — AI agents, retrieval pipelines, and workflow automation — alongside the platform work that keeps them fast and reliable.",
     entries: [
       {
+        id: "exp-beastlife",
+        period: "Oct 2026 – Present",
+        title: "AI Engineer Executive",
+        org: "BeastLife",
+        mode: "Gurugram",
+        url: "https://beastlife.in",
+        points: [
+          "Working directly with CEO Raj Deep to architect and execute the company's core AI strategy, deploying generative AI solutions and agentic systems across D2C operations.",
+          "Designing LLM-driven personalized fitness and nutrition recommendation engines to elevate customer engagement and retention.",
+          "Building automated workflows and intelligent data pipelines to optimize operations, marketing analytics, and consumer touchpoints at scale.",
+        ],
+      },
+      {
         id: "exp-wallmantra",
-        period: "May 2025 – Present",
+        period: "May 2025 – Oct 2026",
         title: "Software Engineer",
         org: "Wallmantra",
         mode: "New Delhi",

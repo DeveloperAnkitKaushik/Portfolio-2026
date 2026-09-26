@@ -9,7 +9,7 @@ export interface HeroData {
 
 export const HERO: HeroData = {
   // Change status to "on-demand" (yellow) or "not-available" (red) to update the UI indicator
-  status: "available",
+  status: "on-demand",
   // The rotating word completes this line, so every role has to read cleanly
   // after "A Full-Stack & Gen AI —" hence single nouns rather than phrases.
   headline: "Hello! I'm Ankit Kaushik. A Full-Stack & Gen AI",
